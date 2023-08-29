@@ -9,7 +9,7 @@ package com.mycompany.matematica;
  * @author AULA-1
  * 
  * Este exemplo não é o mais indicado pois a classe não é statica.
- * 
+ * e precisa instanciar a clase para qie possa acessar as variaveiis
  * 
  * 
  */
@@ -29,7 +29,7 @@ public class Matematica {
     
     public static void main(String[] args) {
         
-        Matematica mat = new Matematica(); //instancia a classe
+        Matematica mat = new Matematica(); //instancia a classe (Cria objeto)
         
         System.out.println("Numero Pi: " + mat.PI);
         System.out.println("Numero E: " + mat.E);
