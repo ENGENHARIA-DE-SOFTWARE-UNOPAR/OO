@@ -2,6 +2,7 @@
 * Repositório criado para a disciplina de OO.
 * Aproveito a oportunidade de usar o github com branches.
 
+* IDE --> NETBEANS_18
 
 ### Anotações avulsas
 
