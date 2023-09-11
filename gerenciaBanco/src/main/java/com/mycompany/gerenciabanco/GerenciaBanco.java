@@ -1,12 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.gerenciabanco;
 
 /**
  *
- * @author AULA-1
+ * @author Natan Ogliari
  */
 public class GerenciaBanco {
 
