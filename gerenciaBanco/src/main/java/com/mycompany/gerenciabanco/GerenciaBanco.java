@@ -1,5 +1,5 @@
 package com.mycompany.gerenciabanco;
-
+import java.util.Scanner;
 /**
  *
  * @author Natan Ogliari
