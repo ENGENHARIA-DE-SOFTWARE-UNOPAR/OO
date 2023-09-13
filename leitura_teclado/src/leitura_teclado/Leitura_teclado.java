@@ -3,8 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 
-package com.mycompany.leitura_teclado.Leitura_teclado; //Problemas no diretorio do pacote
-import java.util.Scanner
+package com.mycompany.leitura_teclado.Leitura_teclado.Leitura_teclado; //Problemas no diretorio do pacote
+import java.util.Scanner;
 
 /**
  *
