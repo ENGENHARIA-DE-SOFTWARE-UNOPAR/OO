@@ -21,10 +21,12 @@ public class JanelaExercicio {
         try{
             diminuiLetras ltpqn = new diminuiLetras();
             ltpqn.lowCase();
+            
         }catch(NullPointerException e){
            System.out.println("Exeção NullPointerException Identiifcada:\n");
            System.out.println("Método diminuiLetras() tratado\n" + e);
         }
+     
         
     }
     

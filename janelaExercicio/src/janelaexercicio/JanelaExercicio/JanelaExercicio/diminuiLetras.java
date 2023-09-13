@@ -3,7 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package janelaExercicio.JanelaExercicio;
+import javax.*;
 import javax.swing.JOptionPane;
+
 
 /**
  *
@@ -15,8 +17,11 @@ public class diminuiLetras {
         
         String word = null;
         String newWord = null;
+             
         
         word = JOptionPane.showInputDialog(null, "Digite um nome: ");
+        
+        
         
         newWord = word.toLowerCase();
         System.out.println("A palavra informada é: " + word);
