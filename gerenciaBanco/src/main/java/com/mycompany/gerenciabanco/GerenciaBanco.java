@@ -6,14 +6,27 @@ import java.util.Scanner;
  */
 public class GerenciaBanco {
 
-    String cliente;
-    int contaCliente;
+    static void clienteLogado(){
+        Scanner menu = new Scanner (System.in);
+        System.out.println("Informe o seu nome:\n");
+        String nome = menu.next();// lê O nome do cliente
+        System.out.println("Informe o seu Sobrenome:\n");
+        String sobrenome = menu.next();// lê O sobrenome do cliente
+        System.out.println("Informe o seu numero de CPF:\t xxx.xxx.xxx-xx:\n");
+        int cpf = menu.nextIn();// lê numero de CPF    
+        return 0;
+    }
     
     static int depositaDinheiro (int valor, char cliente){
     
         return 0;
     }
-    
+    public static void consultaSaldo(){
+        String cliente = null;
+        
+        clienteLogado();
+                
+    }
     
     public static void main(String[] args) {
         //System.out.println("Hello World!");
@@ -33,12 +46,14 @@ public class GerenciaBanco {
         
                   if (opcao == 4) {
                 System.out.print("\nAté logo!");
-                menu.close(); 
+                menu.close(); // fecha o Scanner
+                break;//sai do while
             }
 
             switch (opcao) {
             case 1:
-                System.out.print("\nOpção Novo Cadastro Selecionado");
+                System.out.print("\nOpção Consulta saldo foi selecionada\n");
+                consultaSaldo();
                 break;
 
             case 2:
