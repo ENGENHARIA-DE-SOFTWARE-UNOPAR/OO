@@ -82,3 +82,5 @@ public class TestandoJFormattedTextField extends JFrame{
              setVisible(true);
     }
 }
+
+//ewf
