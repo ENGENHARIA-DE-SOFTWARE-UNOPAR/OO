@@ -1,5 +1,6 @@
 package com.mycompany.gerenciabanco;
-import java.util.Scanner;
+import java.util.*;
+import javax.swing.JOptionPane;
 /**
  *
  * @author Natan Ogliari
