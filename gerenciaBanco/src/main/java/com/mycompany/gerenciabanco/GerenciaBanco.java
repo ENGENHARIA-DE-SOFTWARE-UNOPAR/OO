@@ -2,6 +2,8 @@ package com.mycompany.gerenciabanco;
 
 import java.util.*;
 import javax.swing.JOptionPane;
+import javax.swing.*;
+import java.awt.*;
 import java.lang.Integer;
 /**
  *
@@ -34,6 +36,12 @@ public class GerenciaBanco {
         JOptionPane.showMessageDialog(null,"Bem vindo a opção de saque");
         
     }
+    public static void logaConta(){
+        String cliente = JOptionPane.showInputDialog(null, "Informe o seu nome:\n");
+        
+    }
+        
+    
     
     public static void main(String[] args) {
         //System.out.println("Hello World!");
@@ -71,7 +79,7 @@ public class GerenciaBanco {
 
             switch (opcao) {
             case 1:
-                JOptionPane.showMessageDialog(null,"Opção Consulta saldo foi selecionada");
+                JOptionPane.showMessageDialog(null,"Opção Consulta saldo foi selecionada.","HOME", JOptionPane.INFORMATION_MESSAGE);
                 //System.out.print("\nOpção Consulta saldo foi selecionada\n");
                 consultaSaldo();
                 break;
