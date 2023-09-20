@@ -15,9 +15,7 @@ public class GerenciaBanco {
         String nome = menu.next();// lê O nome do cliente
         System.out.println("Informe o seu Sobrenome:\n");
         String sobrenome = menu.next();// lê O sobrenome do cliente
-// lê O sobrenome do cliente
-        System.out.println("Informe o seu numero de CPF:\t xxx.xxx.xxx-xx:\n");
-        // lê numero de CPF    
+        System.out.println("Informe o seu numero de CPF:\t xxx.xxx.xxx-xx:\n");        // lê numero de CPF    
         
     }
     
@@ -26,15 +24,15 @@ public class GerenciaBanco {
         return 0;
     }
     public static void consultaSaldo(){
-        String cliente = null;
+        String cliente = "Natan";
+        JOptionPane.showMessageDialog(null,"Bem vindo a conulta de Saldo");
         
-        clienteLogado();
                 
     }
     
     public static void realizaSaque(){
-     
-    
+        JOptionPane.showMessageDialog(null,"Bem vindo a opção de saque");
+        
     }
     
     public static void main(String[] args) {
@@ -58,30 +56,36 @@ public class GerenciaBanco {
             System.out.println(opcao);
             
             if ("opcao" == null){// caso o usuario cncele a opção
-                System.out.print("\n Você cancelou o comando\n");
+                //System.out.print("\n Você cancelou o comando\n");
+                JOptionPane.showMessageDialog(null,"Você cancelou o comando");
                 menu.close();
                 break;            
             }
             
             if (opcao == 4) {
-                System.out.print("\nAté logo!");
+                //System.out.print("\nAté logo!");
+                JOptionPane.showMessageDialog(null,"Agradecemos a preferência \n Até logo!");
                 menu.close(); // fecha o Scanner
                 break;//sai do while
             }
 
             switch (opcao) {
             case 1:
-                System.out.print("\nOpção Consulta saldo foi selecionada\n");
+                JOptionPane.showMessageDialog(null,"Opção Consulta saldo foi selecionada");
+                //System.out.print("\nOpção Consulta saldo foi selecionada\n");
                 consultaSaldo();
                 break;
 
             case 2:
+               
                 System.out.print("\nOpção Clientes Selecionado\n");
                 break;
 
             case 3:
                 System.out.print("\nOpção Produtos Selecionado\n");
+                clienteLogado();
                 break;
+                            
 
             default:
                 System.out.print("\nOpção Inválida!");
