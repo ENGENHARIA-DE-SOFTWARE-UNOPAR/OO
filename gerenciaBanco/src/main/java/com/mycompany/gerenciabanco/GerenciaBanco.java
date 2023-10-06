@@ -14,7 +14,7 @@ public class GerenciaBanco {
     static void clienteLogado(){
         Scanner menu = new Scanner (System.in);
         System.out.println("Informe o seu nome:\n");
-        String nome = menu.next();// lê O nome do cliente
+        String nome = menu.next();// le O nome do cliente
         System.out.println("Informe o seu Sobrenome:\n");
         String sobrenome = menu.next();// lê O sobrenome do cliente
         System.out.println("Informe o seu numero de CPF:\t xxx.xxx.xxx-xx:\n");        // lê numero de CPF    
